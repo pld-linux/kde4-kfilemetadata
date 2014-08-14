@@ -5,16 +5,21 @@
 
 Summary:	A library for extracting file metadata
 Name:		kde4-kfilemetadata
-Version:	4.13.2
+Version:	4.14.0
 Release:	1
 License:	LGPLv2 or LGPLv3
 Group:		X11/Applications
 URL:		http://www.kde.org/
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	556d969e9a007a5f07e4ce3149c660f5
+# Source0-md5:	b79265780adad3b5ce97153d07c3a5c3
 BuildRequires:	QtCore-devel >= %{qtver}
+BuildRequires:	ebook-tools-devel
+BuildRequires:	exiv2-devel
+BuildRequires:	ffmpeg-devel
 BuildRequires:	kde4-kdelibs-devel >= %{version}
 BuildRequires:	pkgconfig
+BuildRequires:	poppler-qt4-devel
+BuildRequires:	taglib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
