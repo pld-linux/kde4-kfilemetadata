@@ -10,7 +10,7 @@ Release:	1
 License:	LGPLv2 or LGPLv3
 Group:		X11/Applications
 URL:		http://www.kde.org/
-Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
+Source0:	http://download.kde.org/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
 # Source0-md5:	b79265780adad3b5ce97153d07c3a5c3
 BuildRequires:	QtCore-devel >= %{qtver}
 BuildRequires:	ebook-tools-devel
